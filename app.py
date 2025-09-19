@@ -68,7 +68,7 @@ with col1:
 # Right Column : Fungicide Advisory
 # -------------------------------------------------
 with col2:
-    st.subheader("💡 Maize Downy Mildew – Fungicide Advisory")
+    st.subheader("Maize Downy Mildew – Fungicide Advisory")
 
     # Add CSS for nicer bullet spacing
     st.markdown(
@@ -84,10 +84,10 @@ with col2:
     st.markdown(
         """
         **General Guidelines**  
-        • Downy mildew is seed- and soil-borne and spreads rapidly under **high humidity** and **20–25 °C** conditions.  
-        • **Seed treatment is essential** for primary prevention.  
-        • Foliar sprays are needed only as a follow-up under **high disease pressure**.  
-        • **Integrated approach** (Seed Dressing + Foliar Spray) offers the best control.
+        * Downy mildew is seed- and soil-borne and spreads rapidly under **high humidity** and **20–25 °C** conditions.  
+        * **Seed treatment is essential** for primary prevention.  
+        * Foliar sprays are needed only as a follow-up under **high disease pressure**.  
+        * **Integrated approach** (Seed Dressing + Foliar Spray) offers the best control.
         """,
         unsafe_allow_html=True
     )
@@ -112,13 +112,13 @@ with col2:
         """
         **Advisory Highlights**  
 
-        • **Seed Treatment:** Mandatory with **Metalaxyl + Mancozeb** for all maize sowings in endemic areas.  
-        • **Best Strategy:** Seed treatment + **Azoxystrobin + Difenoconazole** foliar spray → *up to 97.6 % disease control*.  
-        • **Moderate Strategy:** **Metalaxyl seed treatment alone** provides strong control under low disease pressure.  
-        • **Avoid Sole Foliar Sprays:** Treatments like **Carbendazim + Mancozeb**, **Azoxystrobin + Difenoconazole**, or **Azoxystrobin + Cyproconazole** alone are less effective **without seed treatment**.  
-        • **Spray Volume:** Maintain **500 L water/ha** for uniform coverage and penetration.  
-        • **Resistance Management:** Avoid continuous use of **Metalaxyl** or strobilurins (Azoxystrobin, Pyraclostrobin).  
-          Rotate fungicides and mix different modes of action.
+        * **Seed Treatment:** Mandatory with **Metalaxyl + Mancozeb** for all maize sowings in endemic areas.  
+        * **Best Strategy:** Seed treatment + **Azoxystrobin + Difenoconazole** foliar spray → *up to 97.6 % disease control*.  
+        * **Moderate Strategy:** **Metalaxyl seed treatment alone** provides strong control under low disease pressure.  
+        * **Avoid Sole Foliar Sprays:** Treatments like **Carbendazim + Mancozeb**, **Azoxystrobin + Difenoconazole**, or **Azoxystrobin + Cyproconazole** alone are less effective **without seed treatment**.  
+        * **Spray Volume:** Maintain **500 L water/ha** for uniform coverage and penetration.  
+        * **Resistance Management:** Avoid continuous use of **Metalaxyl** or strobilurins (Azoxystrobin, Pyraclostrobin).  
+        * Rotate fungicides and mix different modes of action.
         """,
         unsafe_allow_html=True
     )
@@ -145,3 +145,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
