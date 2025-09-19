@@ -92,7 +92,7 @@ with col2:
         unsafe_allow_html=True
     )
 
-    st.markdown("#### Maize Downy Mildew – Severity & Stage-Based Fungicide Advisory")
+    st.markdown("#### Severity-Based Spraying")
 
     # --- Markdown Table with Bold Text ---
     st.markdown(
@@ -145,4 +145,5 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
